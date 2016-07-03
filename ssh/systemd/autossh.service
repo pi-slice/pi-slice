@@ -1,0 +1,12 @@
+[Unit]
+Description=Reverse SSH Tunnel
+After=network-online.target
+
+[Service]
+User=john
+ExecStart=/usr/bin/autossh -NT pi-aws-tunnel
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

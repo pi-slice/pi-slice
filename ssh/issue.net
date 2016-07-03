@@ -1,0 +1,22 @@
+
+
+*******************************************************************************
+
+Hello and welcome to the Raspberry Pi in Santa Ana, CA.
+
+OS: Raspbian GNU/Linux 8
+
+Update software occasionally by running this command or one at a time:
+
+sudo apt-get update && sudo apt-get upgrade
+
+If you reboot or stop the ssh tunnel, your connection will be closed.
+Should this happen, let John know.
+
+Enjoy your remote mini-computing!
+
+All the Best,
+
+John
+
+*******************************************************************************
