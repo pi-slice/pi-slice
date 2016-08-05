@@ -1,0 +1,24 @@
+{
+  "name": "pi-slice-client",
+  "version": "0.1.0",
+  "description": "Talk to your Raspberry PI",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pi-slice/pi-slice.git"
+  },
+  "keywords": [
+    "Raspberry",
+    "PI",
+    "SSH"
+  ],
+  "author": "John Soo, Keivon Hobeheidar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pi-slice/pi-slice/issues"
+  },
+  "homepage": "https://github.com/pi-slice/pi-slice#readme"
+}
