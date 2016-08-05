@@ -8,6 +8,6 @@ const { PORT = 9999 } = process.env
 let app = express()
 
 app = middleware(app)
-app = routes(app)
+app = routes(app, express)
 
 app.listen(PORT, console.log.bind(console, `Listening on ${PORT}!`))

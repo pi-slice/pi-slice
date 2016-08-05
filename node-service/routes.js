@@ -1,8 +1,5 @@
 module.exports = function (app, express) {
-  app.get('/', (req, res) => {
-    console.log(req)
-    res.status(200).send('Hello world!')
-  })
-
+  app.use('/', express.static('client'))
+  
   return app
 }
