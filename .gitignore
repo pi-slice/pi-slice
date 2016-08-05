@@ -4,3 +4,4 @@ ssh_config.py
 build/
 dist/
 *.egg-info
+*.log
