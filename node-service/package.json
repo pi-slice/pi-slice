@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/pi-slice/pi-slice/issues"
   },
-  "homepage": "https://github.com/pi-slice/pi-slice#readme"
+  "homepage": "https://github.com/pi-slice/pi-slice#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
 }
