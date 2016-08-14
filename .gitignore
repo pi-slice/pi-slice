@@ -1,1 +1,8 @@
 .DS_Store
+ssh_config.py
+*.pyc
+build/
+dist/
+*.egg-info
+*.log
+node_modules/
